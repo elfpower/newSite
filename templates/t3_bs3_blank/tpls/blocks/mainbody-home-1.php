@@ -44,6 +44,12 @@ return;
 		<!-- //HOME SL 3 -->
 	<?php endif ?>
 
+
+
+  	<?php $this->loadBlock('spotlight-2') ?>
+
+
+
 	<?php if ($this->countModules('home-4')) : ?>
 		<!-- HOME SL 4 -->
 		<div class="wrap t3-sl t3-sl-4 <?php $this->_c('home-4') ?>">
@@ -62,6 +68,64 @@ return;
 			</div>
 		</div>
 		<!-- //HOME SL 5 -->
+	<?php endif ?>
+
+	<?php if ($this->countModules('home-6')) : ?>
+		<!-- HOME SL 6 -->
+		<div class="wrap t3-sl t3-sl-6 <?php $this->_c('home-6') ?>">
+			<div class="container">
+				<jdoc:include type="modules" name="<?php $this->_p('home-6') ?>" style="raw" />
+			</div>
+		</div>
+		<!-- //HOME SL 6 -->
+	<?php endif ?>
+
+	<?php if ($this->countModules('home-7')) : ?>
+		<!-- HOME SL 7 -->
+		<div class="wrap t3-sl t3-sl-7 <?php $this->_c('home-7') ?>">
+			<div class="container">
+				<jdoc:include type="modules" name="<?php $this->_p('home-7') ?>" style="raw" />
+			</div>
+		</div>
+		<!-- //HOME SL 7 -->
+	<?php endif ?>
+
+
+
+	
+  	<?php $this->loadBlock('spotlight-3') ?>
+
+
+
+
+	<?php if ($this->countModules('home-8')) : ?>
+		<!-- HOME SL 8 -->
+		<div class="wrap t3-sl t3-sl-8 <?php $this->_c('home-8') ?>">
+			<div class="container">
+				<jdoc:include type="modules" name="<?php $this->_p('home-8') ?>" style="raw" />
+			</div>
+		</div>
+		<!-- //HOME SL 8 -->
+	<?php endif ?>
+
+	<?php if ($this->countModules('home-9')) : ?>
+		<!-- HOME SL 9 -->
+		<div class="wrap t3-sl t3-sl-9 <?php $this->_c('home-9') ?>">
+			<div class="container">
+				<jdoc:include type="modules" name="<?php $this->_p('home-9') ?>" style="raw" />
+			</div>
+		</div>
+		<!-- //HOME SL 9 -->
+	<?php endif ?>
+
+	<?php if ($this->countModules('home-10')) : ?>
+		<!-- HOME SL 10 -->
+		<div class="wrap t3-sl t3-sl-10 <?php $this->_c('home-10') ?>">
+			<div class="container">
+				<jdoc:include type="modules" name="<?php $this->_p('home-10') ?>" style="raw" />
+			</div>
+		</div>
+		<!-- //HOME SL 10 -->
 	<?php endif ?>
 
 </div>
